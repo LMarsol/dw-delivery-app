@@ -18,5 +18,5 @@ abstract class BaseState<T extends StatefulWidget, C extends BlocBase>
     });
   }
 
-  void onReady();
+  void onReady() {}
 }
