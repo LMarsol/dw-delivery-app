@@ -39,7 +39,7 @@ class _ProductDetailPageState
       barrierDismissible: false,
       builder: (context) {
         return AlertDialog(
-          title: const Text('Deseja excluir o produto'),
+          title: const Text('Deseja excluir o produto?'),
           actions: [
             TextButton(
               onPressed: () {
