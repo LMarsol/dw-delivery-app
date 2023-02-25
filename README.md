@@ -1,16 +1,15 @@
-# dw9_delivery_app
+# Vakinha Burguer
 
-A new Flutter project.
+Projeto desenvolvido durante o Dart Week 9, evento promovido pela Academia do Flutter.
 
-## Getting Started
+## Sobre
 
-This project is a starting point for a Flutter application.
+A aplicaçao desenvolvida trata-se de um app completo de delivery onde o usuário consegue visualizar produtos, adicionar produtos ao carrinho e realizar pedidos. Também foi desenvolvido todo o processo de autenticação com login, cadastro e refresh token.
 
-A few resources to get you started if this is your first Flutter project:
+O objetivo do projeto foi desenvolver uma aplicação Flutter utilizando conceitos de arquitetura limpa para construção de um app escalável.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Principais bibliotecas utilizadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-  [Http Client](https://pub.dev/packages/dio)
+-  [State Management](https://pub.dev/packages/bloc)
+-  [Dependency Injection](https://pub.dev/packages/provider)
